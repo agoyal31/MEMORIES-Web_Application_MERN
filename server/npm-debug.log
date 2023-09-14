@@ -1,0 +1,1590 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json server@1.0.0 No description
+6 warn package.json server@1.0.0 No repository field.
+7 warn package.json server@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server',
+9 verbose install   [ 'bcrypt',
+9 verbose install     'bcryptjs',
+9 verbose install     'body-parser',
+9 verbose install     'cors',
+9 verbose install     'express',
+9 verbose install     'jsonwebtoken',
+9 verbose install     'mongoose',
+9 verbose install     'nodemon' ] ]
+10 info preinstall server@1.0.0
+11 warn package.json buffer@5.7.1 buffer is also the name of a node core module.
+12 warn package.json string_decoder@1.3.0 string_decoder is also the name of a node core module.
+13 warn package.json punycode@2.1.1 punycode is also the name of a node core module.
+14 verbose readDependencies using package.json deps
+15 verbose already installed skipping bcrypt@^5.1.0 C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+16 verbose already installed skipping bcryptjs@^2.4.3 C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+17 verbose already installed skipping body-parser@^1.20.1 C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+18 verbose already installed skipping cors@^2.8.5 C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+19 verbose already installed skipping express@^4.18.2 C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+20 verbose already installed skipping jsonwebtoken@^8.5.1 C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+21 verbose already installed skipping mongoose@^6.7.2 C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+22 verbose already installed skipping nodemon@^2.0.20 C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+23 silly resolved []
+24 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+25 verbose linkStuff [ false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main' ]
+26 info linkStuff server@1.0.0
+27 verbose linkBins server@1.0.0
+28 verbose linkMans server@1.0.0
+29 verbose rebuildBundles server@1.0.0
+30 verbose rebuildBundles [ '.bin',
+30 verbose rebuildBundles   '.package-lock.json',
+30 verbose rebuildBundles   '@aws-crypto',
+30 verbose rebuildBundles   '@aws-sdk',
+30 verbose rebuildBundles   '@mapbox',
+30 verbose rebuildBundles   '@types',
+30 verbose rebuildBundles   'abbrev',
+30 verbose rebuildBundles   'accepts',
+30 verbose rebuildBundles   'agent-base',
+30 verbose rebuildBundles   'ansi-regex',
+30 verbose rebuildBundles   'anymatch',
+30 verbose rebuildBundles   'aproba',
+30 verbose rebuildBundles   'are-we-there-yet',
+30 verbose rebuildBundles   'array-flatten',
+30 verbose rebuildBundles   'balanced-match',
+30 verbose rebuildBundles   'base64-js',
+30 verbose rebuildBundles   'bcrypt',
+30 verbose rebuildBundles   'bcryptjs',
+30 verbose rebuildBundles   'binary-extensions',
+30 verbose rebuildBundles   'body-parser',
+30 verbose rebuildBundles   'bowser',
+30 verbose rebuildBundles   'brace-expansion',
+30 verbose rebuildBundles   'braces',
+30 verbose rebuildBundles   'bson',
+30 verbose rebuildBundles   'buffer',
+30 verbose rebuildBundles   'buffer-equal-constant-time',
+30 verbose rebuildBundles   'bytes',
+30 verbose rebuildBundles   'call-bind',
+30 verbose rebuildBundles   'chokidar',
+30 verbose rebuildBundles   'chownr',
+30 verbose rebuildBundles   'color-support',
+30 verbose rebuildBundles   'concat-map',
+30 verbose rebuildBundles   'console-control-strings',
+30 verbose rebuildBundles   'content-disposition',
+30 verbose rebuildBundles   'content-type',
+30 verbose rebuildBundles   'cookie',
+30 verbose rebuildBundles   'cookie-signature',
+30 verbose rebuildBundles   'cors',
+30 verbose rebuildBundles   'debug',
+30 verbose rebuildBundles   'delegates',
+30 verbose rebuildBundles   'denque',
+30 verbose rebuildBundles   'depd',
+30 verbose rebuildBundles   'destroy',
+30 verbose rebuildBundles   'detect-libc',
+30 verbose rebuildBundles   'ecdsa-sig-formatter',
+30 verbose rebuildBundles   'ee-first',
+30 verbose rebuildBundles   'emoji-regex',
+30 verbose rebuildBundles   'encodeurl',
+30 verbose rebuildBundles   'escape-html',
+30 verbose rebuildBundles   'etag',
+30 verbose rebuildBundles   'express',
+30 verbose rebuildBundles   'fast-xml-parser',
+30 verbose rebuildBundles   'fill-range',
+30 verbose rebuildBundles   'finalhandler',
+30 verbose rebuildBundles   'forwarded',
+30 verbose rebuildBundles   'fresh',
+30 verbose rebuildBundles   'fs-minipass',
+30 verbose rebuildBundles   'fs.realpath',
+30 verbose rebuildBundles   'function-bind',
+30 verbose rebuildBundles   'gauge',
+30 verbose rebuildBundles   'get-intrinsic',
+30 verbose rebuildBundles   'glob',
+30 verbose rebuildBundles   'glob-parent',
+30 verbose rebuildBundles   'has',
+30 verbose rebuildBundles   'has-flag',
+30 verbose rebuildBundles   'has-symbols',
+30 verbose rebuildBundles   'has-unicode',
+30 verbose rebuildBundles   'http-errors',
+30 verbose rebuildBundles   'https-proxy-agent',
+30 verbose rebuildBundles   'iconv-lite',
+30 verbose rebuildBundles   'ieee754',
+30 verbose rebuildBundles   'ignore-by-default',
+30 verbose rebuildBundles   'inflight',
+30 verbose rebuildBundles   'inherits',
+30 verbose rebuildBundles   'ip',
+30 verbose rebuildBundles   'ipaddr.js',
+30 verbose rebuildBundles   'is-binary-path',
+30 verbose rebuildBundles   'is-extglob',
+30 verbose rebuildBundles   'is-fullwidth-code-point',
+30 verbose rebuildBundles   'is-glob',
+30 verbose rebuildBundles   'is-number',
+30 verbose rebuildBundles   'jsonwebtoken',
+30 verbose rebuildBundles   'jwa',
+30 verbose rebuildBundles   'jws',
+30 verbose rebuildBundles   'kareem',
+30 verbose rebuildBundles   'lodash.includes',
+30 verbose rebuildBundles   'lodash.isboolean',
+30 verbose rebuildBundles   'lodash.isinteger',
+30 verbose rebuildBundles   'lodash.isnumber',
+30 verbose rebuildBundles   'lodash.isplainobject',
+30 verbose rebuildBundles   'lodash.isstring',
+30 verbose rebuildBundles   'lodash.once',
+30 verbose rebuildBundles   'lru-cache',
+30 verbose rebuildBundles   'make-dir',
+30 verbose rebuildBundles   'media-typer',
+30 verbose rebuildBundles   'memory-pager',
+30 verbose rebuildBundles   'merge-descriptors',
+30 verbose rebuildBundles   'methods',
+30 verbose rebuildBundles   'mime',
+30 verbose rebuildBundles   'mime-db',
+30 verbose rebuildBundles   'mime-types',
+30 verbose rebuildBundles   'minimatch',
+30 verbose rebuildBundles   'minipass',
+30 verbose rebuildBundles   'minizlib',
+30 verbose rebuildBundles   'mkdirp',
+30 verbose rebuildBundles   'mongodb',
+30 verbose rebuildBundles   'mongodb-connection-string-url',
+30 verbose rebuildBundles   'mongoose',
+30 verbose rebuildBundles   'mpath',
+30 verbose rebuildBundles   'mquery',
+30 verbose rebuildBundles   'ms',
+30 verbose rebuildBundles   'negotiator',
+30 verbose rebuildBundles   'node-addon-api',
+30 verbose rebuildBundles   'node-fetch',
+30 verbose rebuildBundles   'nodemon',
+30 verbose rebuildBundles   'nopt',
+30 verbose rebuildBundles   'normalize-path',
+30 verbose rebuildBundles   'npmlog',
+30 verbose rebuildBundles   'object-assign',
+30 verbose rebuildBundles   'object-inspect',
+30 verbose rebuildBundles   'on-finished',
+30 verbose rebuildBundles   'once',
+30 verbose rebuildBundles   'parseurl',
+30 verbose rebuildBundles   'path-is-absolute',
+30 verbose rebuildBundles   'path-to-regexp',
+30 verbose rebuildBundles   'picomatch',
+30 verbose rebuildBundles   'proxy-addr',
+30 verbose rebuildBundles   'pstree.remy',
+30 verbose rebuildBundles   'punycode',
+30 verbose rebuildBundles   'qs',
+30 verbose rebuildBundles   'range-parser',
+30 verbose rebuildBundles   'raw-body',
+30 verbose rebuildBundles   'readable-stream',
+30 verbose rebuildBundles   'readdirp',
+30 verbose rebuildBundles   'rimraf',
+30 verbose rebuildBundles   'safe-buffer',
+30 verbose rebuildBundles   'safer-buffer',
+30 verbose rebuildBundles   'saslprep',
+30 verbose rebuildBundles   'semver',
+30 verbose rebuildBundles   'send',
+30 verbose rebuildBundles   'serve-static',
+30 verbose rebuildBundles   'set-blocking',
+30 verbose rebuildBundles   'setprototypeof',
+30 verbose rebuildBundles   'side-channel',
+30 verbose rebuildBundles   'sift',
+30 verbose rebuildBundles   'signal-exit',
+30 verbose rebuildBundles   'simple-update-notifier',
+30 verbose rebuildBundles   'smart-buffer',
+30 verbose rebuildBundles   'socks',
+30 verbose rebuildBundles   'sparse-bitfield',
+30 verbose rebuildBundles   'statuses',
+30 verbose rebuildBundles   'string-width',
+30 verbose rebuildBundles   'string_decoder',
+30 verbose rebuildBundles   'strip-ansi',
+30 verbose rebuildBundles   'strnum',
+30 verbose rebuildBundles   'supports-color',
+30 verbose rebuildBundles   'tar',
+30 verbose rebuildBundles   'to-regex-range',
+30 verbose rebuildBundles   'toidentifier',
+30 verbose rebuildBundles   'touch',
+30 verbose rebuildBundles   'tr46',
+30 verbose rebuildBundles   'tslib',
+30 verbose rebuildBundles   'type-is',
+30 verbose rebuildBundles   'undefsafe',
+30 verbose rebuildBundles   'unpipe',
+30 verbose rebuildBundles   'util-deprecate',
+30 verbose rebuildBundles   'utils-merge',
+30 verbose rebuildBundles   'uuid',
+30 verbose rebuildBundles   'vary',
+30 verbose rebuildBundles   'webidl-conversions',
+30 verbose rebuildBundles   'whatwg-url',
+30 verbose rebuildBundles   'wide-align',
+30 verbose rebuildBundles   'wrappy',
+30 verbose rebuildBundles   'yallist' ]
+31 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\abbrev
+32 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\abbrev
+33 info preinstall abbrev@1.1.1
+34 verbose linkStuff [ false,
+34 verbose linkStuff   false,
+34 verbose linkStuff   false,
+34 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+35 info linkStuff abbrev@1.1.1
+36 verbose linkBins abbrev@1.1.1
+37 verbose linkMans abbrev@1.1.1
+38 verbose rebuildBundles abbrev@1.1.1
+39 info install abbrev@1.1.1
+40 info postinstall abbrev@1.1.1
+41 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\accepts
+42 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\accepts
+43 info preinstall accepts@1.3.8
+44 verbose linkStuff [ false,
+44 verbose linkStuff   false,
+44 verbose linkStuff   false,
+44 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+45 info linkStuff accepts@1.3.8
+46 verbose linkBins accepts@1.3.8
+47 verbose linkMans accepts@1.3.8
+48 verbose rebuildBundles accepts@1.3.8
+49 info install accepts@1.3.8
+50 info postinstall accepts@1.3.8
+51 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\agent-base
+52 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\agent-base
+53 info preinstall agent-base@6.0.2
+54 verbose linkStuff [ false,
+54 verbose linkStuff   false,
+54 verbose linkStuff   false,
+54 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+55 info linkStuff agent-base@6.0.2
+56 verbose linkBins agent-base@6.0.2
+57 verbose linkMans agent-base@6.0.2
+58 verbose rebuildBundles agent-base@6.0.2
+59 verbose rebuildBundles [ 'debug', 'ms' ]
+60 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\agent-base\node_modules\ms
+61 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\agent-base\node_modules\ms
+62 info preinstall ms@2.1.2
+63 verbose linkStuff [ false,
+63 verbose linkStuff   false,
+63 verbose linkStuff   false,
+63 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules\\agent-base\\node_modules' ]
+64 info linkStuff ms@2.1.2
+65 verbose linkBins ms@2.1.2
+66 verbose linkMans ms@2.1.2
+67 verbose rebuildBundles ms@2.1.2
+68 info install ms@2.1.2
+69 info postinstall ms@2.1.2
+70 info install agent-base@6.0.2
+71 info postinstall agent-base@6.0.2
+72 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ansi-regex
+73 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ansi-regex
+74 info preinstall ansi-regex@5.0.1
+75 verbose linkStuff [ false,
+75 verbose linkStuff   false,
+75 verbose linkStuff   false,
+75 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+76 info linkStuff ansi-regex@5.0.1
+77 verbose linkBins ansi-regex@5.0.1
+78 verbose linkMans ansi-regex@5.0.1
+79 verbose rebuildBundles ansi-regex@5.0.1
+80 info install ansi-regex@5.0.1
+81 info postinstall ansi-regex@5.0.1
+82 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\anymatch
+83 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\anymatch
+84 info preinstall anymatch@3.1.2
+85 verbose linkStuff [ false,
+85 verbose linkStuff   false,
+85 verbose linkStuff   false,
+85 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+86 info linkStuff anymatch@3.1.2
+87 verbose linkBins anymatch@3.1.2
+88 verbose linkMans anymatch@3.1.2
+89 verbose rebuildBundles anymatch@3.1.2
+90 info install anymatch@3.1.2
+91 info postinstall anymatch@3.1.2
+92 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\aproba
+93 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\aproba
+94 info preinstall aproba@2.0.0
+95 verbose linkStuff [ false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   false,
+95 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+96 info linkStuff aproba@2.0.0
+97 verbose linkBins aproba@2.0.0
+98 verbose linkMans aproba@2.0.0
+99 verbose rebuildBundles aproba@2.0.0
+100 info install aproba@2.0.0
+101 info postinstall aproba@2.0.0
+102 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\are-we-there-yet
+103 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\are-we-there-yet
+104 info preinstall are-we-there-yet@2.0.0
+105 verbose linkStuff [ false,
+105 verbose linkStuff   false,
+105 verbose linkStuff   false,
+105 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+106 info linkStuff are-we-there-yet@2.0.0
+107 verbose linkBins are-we-there-yet@2.0.0
+108 verbose linkMans are-we-there-yet@2.0.0
+109 verbose rebuildBundles are-we-there-yet@2.0.0
+110 info install are-we-there-yet@2.0.0
+111 info postinstall are-we-there-yet@2.0.0
+112 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\array-flatten
+113 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\array-flatten
+114 info preinstall array-flatten@1.1.1
+115 verbose linkStuff [ false,
+115 verbose linkStuff   false,
+115 verbose linkStuff   false,
+115 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+116 info linkStuff array-flatten@1.1.1
+117 verbose linkBins array-flatten@1.1.1
+118 verbose linkMans array-flatten@1.1.1
+119 verbose rebuildBundles array-flatten@1.1.1
+120 info install array-flatten@1.1.1
+121 info postinstall array-flatten@1.1.1
+122 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\balanced-match
+123 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\balanced-match
+124 info preinstall balanced-match@1.0.2
+125 verbose linkStuff [ false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   false,
+125 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+126 info linkStuff balanced-match@1.0.2
+127 verbose linkBins balanced-match@1.0.2
+128 verbose linkMans balanced-match@1.0.2
+129 verbose rebuildBundles balanced-match@1.0.2
+130 info install balanced-match@1.0.2
+131 info postinstall balanced-match@1.0.2
+132 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\base64-js
+133 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\base64-js
+134 info preinstall base64-js@1.5.1
+135 verbose linkStuff [ false,
+135 verbose linkStuff   false,
+135 verbose linkStuff   false,
+135 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+136 info linkStuff base64-js@1.5.1
+137 verbose linkBins base64-js@1.5.1
+138 verbose linkMans base64-js@1.5.1
+139 verbose rebuildBundles base64-js@1.5.1
+140 info install base64-js@1.5.1
+141 info postinstall base64-js@1.5.1
+142 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\binary-extensions
+143 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\binary-extensions
+144 info preinstall binary-extensions@2.2.0
+145 verbose linkStuff [ false,
+145 verbose linkStuff   false,
+145 verbose linkStuff   false,
+145 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+146 info linkStuff binary-extensions@2.2.0
+147 verbose linkBins binary-extensions@2.2.0
+148 verbose linkMans binary-extensions@2.2.0
+149 verbose rebuildBundles binary-extensions@2.2.0
+150 info install binary-extensions@2.2.0
+151 info postinstall binary-extensions@2.2.0
+152 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\bowser
+153 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\bowser
+154 info preinstall bowser@2.11.0
+155 verbose linkStuff [ false,
+155 verbose linkStuff   false,
+155 verbose linkStuff   false,
+155 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+156 info linkStuff bowser@2.11.0
+157 verbose linkBins bowser@2.11.0
+158 verbose linkMans bowser@2.11.0
+159 verbose rebuildBundles bowser@2.11.0
+160 info install bowser@2.11.0
+161 info postinstall bowser@2.11.0
+162 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\brace-expansion
+163 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\brace-expansion
+164 info preinstall brace-expansion@1.1.11
+165 verbose linkStuff [ false,
+165 verbose linkStuff   false,
+165 verbose linkStuff   false,
+165 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+166 info linkStuff brace-expansion@1.1.11
+167 verbose linkBins brace-expansion@1.1.11
+168 verbose linkMans brace-expansion@1.1.11
+169 verbose rebuildBundles brace-expansion@1.1.11
+170 info install brace-expansion@1.1.11
+171 info postinstall brace-expansion@1.1.11
+172 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\braces
+173 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\braces
+174 info preinstall braces@3.0.2
+175 verbose linkStuff [ false,
+175 verbose linkStuff   false,
+175 verbose linkStuff   false,
+175 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+176 info linkStuff braces@3.0.2
+177 verbose linkBins braces@3.0.2
+178 verbose linkMans braces@3.0.2
+179 verbose rebuildBundles braces@3.0.2
+180 info install braces@3.0.2
+181 info postinstall braces@3.0.2
+182 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\bson
+183 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\bson
+184 info preinstall bson@4.7.0
+185 verbose linkStuff [ false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   false,
+185 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+186 info linkStuff bson@4.7.0
+187 verbose linkBins bson@4.7.0
+188 verbose linkMans bson@4.7.0
+189 verbose rebuildBundles bson@4.7.0
+190 info install bson@4.7.0
+191 info postinstall bson@4.7.0
+192 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\buffer
+193 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\buffer
+194 info preinstall buffer@5.7.1
+195 verbose linkStuff [ false,
+195 verbose linkStuff   false,
+195 verbose linkStuff   false,
+195 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+196 info linkStuff buffer@5.7.1
+197 verbose linkBins buffer@5.7.1
+198 verbose linkMans buffer@5.7.1
+199 verbose rebuildBundles buffer@5.7.1
+200 info install buffer@5.7.1
+201 info postinstall buffer@5.7.1
+202 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\buffer-equal-constant-time
+203 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\buffer-equal-constant-time
+204 info preinstall buffer-equal-constant-time@1.0.1
+205 verbose linkStuff [ false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   false,
+205 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+206 info linkStuff buffer-equal-constant-time@1.0.1
+207 verbose linkBins buffer-equal-constant-time@1.0.1
+208 verbose linkMans buffer-equal-constant-time@1.0.1
+209 verbose rebuildBundles buffer-equal-constant-time@1.0.1
+210 info install buffer-equal-constant-time@1.0.1
+211 info postinstall buffer-equal-constant-time@1.0.1
+212 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\bytes
+213 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\bytes
+214 info preinstall bytes@3.1.2
+215 verbose linkStuff [ false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   false,
+215 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+216 info linkStuff bytes@3.1.2
+217 verbose linkBins bytes@3.1.2
+218 verbose linkMans bytes@3.1.2
+219 verbose rebuildBundles bytes@3.1.2
+220 info install bytes@3.1.2
+221 info postinstall bytes@3.1.2
+222 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\call-bind
+223 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\call-bind
+224 info preinstall call-bind@1.0.2
+225 verbose linkStuff [ false,
+225 verbose linkStuff   false,
+225 verbose linkStuff   false,
+225 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+226 info linkStuff call-bind@1.0.2
+227 verbose linkBins call-bind@1.0.2
+228 verbose linkMans call-bind@1.0.2
+229 verbose rebuildBundles call-bind@1.0.2
+230 info install call-bind@1.0.2
+231 info postinstall call-bind@1.0.2
+232 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\chokidar
+233 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\chokidar
+234 info preinstall chokidar@3.5.3
+235 verbose linkStuff [ false,
+235 verbose linkStuff   false,
+235 verbose linkStuff   false,
+235 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+236 info linkStuff chokidar@3.5.3
+237 verbose linkBins chokidar@3.5.3
+238 verbose linkMans chokidar@3.5.3
+239 verbose rebuildBundles chokidar@3.5.3
+240 info install chokidar@3.5.3
+241 info postinstall chokidar@3.5.3
+242 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\chownr
+243 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\chownr
+244 info preinstall chownr@2.0.0
+245 verbose linkStuff [ false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+246 info linkStuff chownr@2.0.0
+247 verbose linkBins chownr@2.0.0
+248 verbose linkMans chownr@2.0.0
+249 verbose rebuildBundles chownr@2.0.0
+250 info install chownr@2.0.0
+251 info postinstall chownr@2.0.0
+252 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\color-support
+253 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\color-support
+254 info preinstall color-support@1.1.3
+255 verbose linkStuff [ false,
+255 verbose linkStuff   false,
+255 verbose linkStuff   false,
+255 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+256 info linkStuff color-support@1.1.3
+257 verbose linkBins color-support@1.1.3
+258 verbose link bins [ { 'color-support': 'bin.js' },
+258 verbose link bins   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules\\.bin',
+258 verbose link bins   false ]
+259 verbose linkMans color-support@1.1.3
+260 verbose rebuildBundles color-support@1.1.3
+261 info install color-support@1.1.3
+262 info postinstall color-support@1.1.3
+263 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\concat-map
+264 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\concat-map
+265 info preinstall concat-map@0.0.1
+266 verbose linkStuff [ false,
+266 verbose linkStuff   false,
+266 verbose linkStuff   false,
+266 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+267 info linkStuff concat-map@0.0.1
+268 verbose linkBins concat-map@0.0.1
+269 verbose linkMans concat-map@0.0.1
+270 verbose rebuildBundles concat-map@0.0.1
+271 info install concat-map@0.0.1
+272 info postinstall concat-map@0.0.1
+273 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\console-control-strings
+274 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\console-control-strings
+275 info preinstall console-control-strings@1.1.0
+276 verbose linkStuff [ false,
+276 verbose linkStuff   false,
+276 verbose linkStuff   false,
+276 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+277 info linkStuff console-control-strings@1.1.0
+278 verbose linkBins console-control-strings@1.1.0
+279 verbose linkMans console-control-strings@1.1.0
+280 verbose rebuildBundles console-control-strings@1.1.0
+281 info install console-control-strings@1.1.0
+282 info postinstall console-control-strings@1.1.0
+283 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\content-disposition
+284 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\content-disposition
+285 info preinstall content-disposition@0.5.4
+286 verbose linkStuff [ false,
+286 verbose linkStuff   false,
+286 verbose linkStuff   false,
+286 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+287 info linkStuff content-disposition@0.5.4
+288 verbose linkBins content-disposition@0.5.4
+289 verbose linkMans content-disposition@0.5.4
+290 verbose rebuildBundles content-disposition@0.5.4
+291 info install content-disposition@0.5.4
+292 info postinstall content-disposition@0.5.4
+293 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\content-type
+294 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\content-type
+295 info preinstall content-type@1.0.4
+296 verbose linkStuff [ false,
+296 verbose linkStuff   false,
+296 verbose linkStuff   false,
+296 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+297 info linkStuff content-type@1.0.4
+298 verbose linkBins content-type@1.0.4
+299 verbose linkMans content-type@1.0.4
+300 verbose rebuildBundles content-type@1.0.4
+301 info install content-type@1.0.4
+302 info postinstall content-type@1.0.4
+303 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\cookie
+304 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\cookie
+305 info preinstall cookie@0.5.0
+306 verbose linkStuff [ false,
+306 verbose linkStuff   false,
+306 verbose linkStuff   false,
+306 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+307 info linkStuff cookie@0.5.0
+308 verbose linkBins cookie@0.5.0
+309 verbose linkMans cookie@0.5.0
+310 verbose rebuildBundles cookie@0.5.0
+311 info install cookie@0.5.0
+312 info postinstall cookie@0.5.0
+313 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\cookie-signature
+314 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\cookie-signature
+315 info preinstall cookie-signature@1.0.6
+316 verbose linkStuff [ false,
+316 verbose linkStuff   false,
+316 verbose linkStuff   false,
+316 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+317 info linkStuff cookie-signature@1.0.6
+318 verbose linkBins cookie-signature@1.0.6
+319 verbose linkMans cookie-signature@1.0.6
+320 verbose rebuildBundles cookie-signature@1.0.6
+321 info install cookie-signature@1.0.6
+322 info postinstall cookie-signature@1.0.6
+323 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\debug
+324 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\debug
+325 info preinstall debug@2.6.9
+326 verbose linkStuff [ false,
+326 verbose linkStuff   false,
+326 verbose linkStuff   false,
+326 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+327 info linkStuff debug@2.6.9
+328 verbose linkBins debug@2.6.9
+329 verbose linkMans debug@2.6.9
+330 verbose rebuildBundles debug@2.6.9
+331 info install debug@2.6.9
+332 info postinstall debug@2.6.9
+333 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\delegates
+334 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\delegates
+335 info preinstall delegates@1.0.0
+336 verbose linkStuff [ false,
+336 verbose linkStuff   false,
+336 verbose linkStuff   false,
+336 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+337 info linkStuff delegates@1.0.0
+338 verbose linkBins delegates@1.0.0
+339 verbose linkMans delegates@1.0.0
+340 verbose rebuildBundles delegates@1.0.0
+341 info install delegates@1.0.0
+342 info postinstall delegates@1.0.0
+343 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\denque
+344 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\denque
+345 info preinstall denque@2.1.0
+346 verbose linkStuff [ false,
+346 verbose linkStuff   false,
+346 verbose linkStuff   false,
+346 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+347 info linkStuff denque@2.1.0
+348 verbose linkBins denque@2.1.0
+349 verbose linkMans denque@2.1.0
+350 verbose rebuildBundles denque@2.1.0
+351 info install denque@2.1.0
+352 info postinstall denque@2.1.0
+353 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\depd
+354 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\depd
+355 info preinstall depd@2.0.0
+356 verbose linkStuff [ false,
+356 verbose linkStuff   false,
+356 verbose linkStuff   false,
+356 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+357 info linkStuff depd@2.0.0
+358 verbose linkBins depd@2.0.0
+359 verbose linkMans depd@2.0.0
+360 verbose rebuildBundles depd@2.0.0
+361 info install depd@2.0.0
+362 info postinstall depd@2.0.0
+363 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\destroy
+364 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\destroy
+365 info preinstall destroy@1.2.0
+366 verbose linkStuff [ false,
+366 verbose linkStuff   false,
+366 verbose linkStuff   false,
+366 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+367 info linkStuff destroy@1.2.0
+368 verbose linkBins destroy@1.2.0
+369 verbose linkMans destroy@1.2.0
+370 verbose rebuildBundles destroy@1.2.0
+371 info install destroy@1.2.0
+372 info postinstall destroy@1.2.0
+373 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\detect-libc
+374 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\detect-libc
+375 info preinstall detect-libc@2.0.1
+376 verbose linkStuff [ false,
+376 verbose linkStuff   false,
+376 verbose linkStuff   false,
+376 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+377 info linkStuff detect-libc@2.0.1
+378 verbose linkBins detect-libc@2.0.1
+379 verbose linkMans detect-libc@2.0.1
+380 verbose rebuildBundles detect-libc@2.0.1
+381 info install detect-libc@2.0.1
+382 info postinstall detect-libc@2.0.1
+383 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ecdsa-sig-formatter
+384 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ecdsa-sig-formatter
+385 info preinstall ecdsa-sig-formatter@1.0.11
+386 verbose linkStuff [ false,
+386 verbose linkStuff   false,
+386 verbose linkStuff   false,
+386 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+387 info linkStuff ecdsa-sig-formatter@1.0.11
+388 verbose linkBins ecdsa-sig-formatter@1.0.11
+389 verbose linkMans ecdsa-sig-formatter@1.0.11
+390 verbose rebuildBundles ecdsa-sig-formatter@1.0.11
+391 info install ecdsa-sig-formatter@1.0.11
+392 info postinstall ecdsa-sig-formatter@1.0.11
+393 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ee-first
+394 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ee-first
+395 info preinstall ee-first@1.1.1
+396 verbose linkStuff [ false,
+396 verbose linkStuff   false,
+396 verbose linkStuff   false,
+396 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+397 info linkStuff ee-first@1.1.1
+398 verbose linkBins ee-first@1.1.1
+399 verbose linkMans ee-first@1.1.1
+400 verbose rebuildBundles ee-first@1.1.1
+401 info install ee-first@1.1.1
+402 info postinstall ee-first@1.1.1
+403 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\emoji-regex
+404 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\emoji-regex
+405 info preinstall emoji-regex@8.0.0
+406 verbose linkStuff [ false,
+406 verbose linkStuff   false,
+406 verbose linkStuff   false,
+406 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+407 info linkStuff emoji-regex@8.0.0
+408 verbose linkBins emoji-regex@8.0.0
+409 verbose linkMans emoji-regex@8.0.0
+410 verbose rebuildBundles emoji-regex@8.0.0
+411 info install emoji-regex@8.0.0
+412 info postinstall emoji-regex@8.0.0
+413 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\encodeurl
+414 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\encodeurl
+415 info preinstall encodeurl@1.0.2
+416 verbose linkStuff [ false,
+416 verbose linkStuff   false,
+416 verbose linkStuff   false,
+416 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+417 info linkStuff encodeurl@1.0.2
+418 verbose linkBins encodeurl@1.0.2
+419 verbose linkMans encodeurl@1.0.2
+420 verbose rebuildBundles encodeurl@1.0.2
+421 info install encodeurl@1.0.2
+422 info postinstall encodeurl@1.0.2
+423 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\escape-html
+424 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\escape-html
+425 info preinstall escape-html@1.0.3
+426 verbose linkStuff [ false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   false,
+426 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+427 info linkStuff escape-html@1.0.3
+428 verbose linkBins escape-html@1.0.3
+429 verbose linkMans escape-html@1.0.3
+430 verbose rebuildBundles escape-html@1.0.3
+431 info install escape-html@1.0.3
+432 info postinstall escape-html@1.0.3
+433 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\etag
+434 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\etag
+435 info preinstall etag@1.8.1
+436 verbose linkStuff [ false,
+436 verbose linkStuff   false,
+436 verbose linkStuff   false,
+436 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+437 info linkStuff etag@1.8.1
+438 verbose linkBins etag@1.8.1
+439 verbose linkMans etag@1.8.1
+440 verbose rebuildBundles etag@1.8.1
+441 info install etag@1.8.1
+442 info postinstall etag@1.8.1
+443 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fast-xml-parser
+444 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fast-xml-parser
+445 info preinstall fast-xml-parser@4.0.11
+446 verbose linkStuff [ false,
+446 verbose linkStuff   false,
+446 verbose linkStuff   false,
+446 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+447 info linkStuff fast-xml-parser@4.0.11
+448 verbose linkBins fast-xml-parser@4.0.11
+449 verbose link bins [ { fxparser: './src/cli/cli.js' },
+449 verbose link bins   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules\\.bin',
+449 verbose link bins   false ]
+450 verbose linkMans fast-xml-parser@4.0.11
+451 verbose rebuildBundles fast-xml-parser@4.0.11
+452 info install fast-xml-parser@4.0.11
+453 info postinstall fast-xml-parser@4.0.11
+454 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fill-range
+455 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fill-range
+456 info preinstall fill-range@7.0.1
+457 verbose linkStuff [ false,
+457 verbose linkStuff   false,
+457 verbose linkStuff   false,
+457 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+458 info linkStuff fill-range@7.0.1
+459 verbose linkBins fill-range@7.0.1
+460 verbose linkMans fill-range@7.0.1
+461 verbose rebuildBundles fill-range@7.0.1
+462 info install fill-range@7.0.1
+463 info postinstall fill-range@7.0.1
+464 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\finalhandler
+465 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\finalhandler
+466 info preinstall finalhandler@1.2.0
+467 verbose linkStuff [ false,
+467 verbose linkStuff   false,
+467 verbose linkStuff   false,
+467 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+468 info linkStuff finalhandler@1.2.0
+469 verbose linkBins finalhandler@1.2.0
+470 verbose linkMans finalhandler@1.2.0
+471 verbose rebuildBundles finalhandler@1.2.0
+472 info install finalhandler@1.2.0
+473 info postinstall finalhandler@1.2.0
+474 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\forwarded
+475 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\forwarded
+476 info preinstall forwarded@0.2.0
+477 verbose linkStuff [ false,
+477 verbose linkStuff   false,
+477 verbose linkStuff   false,
+477 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+478 info linkStuff forwarded@0.2.0
+479 verbose linkBins forwarded@0.2.0
+480 verbose linkMans forwarded@0.2.0
+481 verbose rebuildBundles forwarded@0.2.0
+482 info install forwarded@0.2.0
+483 info postinstall forwarded@0.2.0
+484 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fresh
+485 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fresh
+486 info preinstall fresh@0.5.2
+487 verbose linkStuff [ false,
+487 verbose linkStuff   false,
+487 verbose linkStuff   false,
+487 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+488 info linkStuff fresh@0.5.2
+489 verbose linkBins fresh@0.5.2
+490 verbose linkMans fresh@0.5.2
+491 verbose rebuildBundles fresh@0.5.2
+492 info install fresh@0.5.2
+493 info postinstall fresh@0.5.2
+494 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fs-minipass
+495 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fs-minipass
+496 info preinstall fs-minipass@2.1.0
+497 verbose linkStuff [ false,
+497 verbose linkStuff   false,
+497 verbose linkStuff   false,
+497 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+498 info linkStuff fs-minipass@2.1.0
+499 verbose linkBins fs-minipass@2.1.0
+500 verbose linkMans fs-minipass@2.1.0
+501 verbose rebuildBundles fs-minipass@2.1.0
+502 info install fs-minipass@2.1.0
+503 info postinstall fs-minipass@2.1.0
+504 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fs.realpath
+505 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\fs.realpath
+506 info preinstall fs.realpath@1.0.0
+507 verbose linkStuff [ false,
+507 verbose linkStuff   false,
+507 verbose linkStuff   false,
+507 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+508 info linkStuff fs.realpath@1.0.0
+509 verbose linkBins fs.realpath@1.0.0
+510 verbose linkMans fs.realpath@1.0.0
+511 verbose rebuildBundles fs.realpath@1.0.0
+512 info install fs.realpath@1.0.0
+513 info postinstall fs.realpath@1.0.0
+514 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\function-bind
+515 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\function-bind
+516 info preinstall function-bind@1.1.1
+517 verbose linkStuff [ false,
+517 verbose linkStuff   false,
+517 verbose linkStuff   false,
+517 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+518 info linkStuff function-bind@1.1.1
+519 verbose linkBins function-bind@1.1.1
+520 verbose linkMans function-bind@1.1.1
+521 verbose rebuildBundles function-bind@1.1.1
+522 info install function-bind@1.1.1
+523 info postinstall function-bind@1.1.1
+524 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\gauge
+525 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\gauge
+526 info preinstall gauge@3.0.2
+527 verbose linkStuff [ false,
+527 verbose linkStuff   false,
+527 verbose linkStuff   false,
+527 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+528 info linkStuff gauge@3.0.2
+529 verbose linkBins gauge@3.0.2
+530 verbose linkMans gauge@3.0.2
+531 verbose rebuildBundles gauge@3.0.2
+532 info install gauge@3.0.2
+533 info postinstall gauge@3.0.2
+534 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\get-intrinsic
+535 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\get-intrinsic
+536 info preinstall get-intrinsic@1.1.3
+537 verbose linkStuff [ false,
+537 verbose linkStuff   false,
+537 verbose linkStuff   false,
+537 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+538 info linkStuff get-intrinsic@1.1.3
+539 verbose linkBins get-intrinsic@1.1.3
+540 verbose linkMans get-intrinsic@1.1.3
+541 verbose rebuildBundles get-intrinsic@1.1.3
+542 info install get-intrinsic@1.1.3
+543 info postinstall get-intrinsic@1.1.3
+544 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\glob
+545 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\glob
+546 info preinstall glob@7.2.3
+547 verbose linkStuff [ false,
+547 verbose linkStuff   false,
+547 verbose linkStuff   false,
+547 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+548 info linkStuff glob@7.2.3
+549 verbose linkBins glob@7.2.3
+550 verbose linkMans glob@7.2.3
+551 verbose rebuildBundles glob@7.2.3
+552 info install glob@7.2.3
+553 info postinstall glob@7.2.3
+554 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\glob-parent
+555 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\glob-parent
+556 info preinstall glob-parent@5.1.2
+557 verbose linkStuff [ false,
+557 verbose linkStuff   false,
+557 verbose linkStuff   false,
+557 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+558 info linkStuff glob-parent@5.1.2
+559 verbose linkBins glob-parent@5.1.2
+560 verbose linkMans glob-parent@5.1.2
+561 verbose rebuildBundles glob-parent@5.1.2
+562 info install glob-parent@5.1.2
+563 info postinstall glob-parent@5.1.2
+564 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\has
+565 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\has
+566 info preinstall has@1.0.3
+567 verbose linkStuff [ false,
+567 verbose linkStuff   false,
+567 verbose linkStuff   false,
+567 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+568 info linkStuff has@1.0.3
+569 verbose linkBins has@1.0.3
+570 verbose linkMans has@1.0.3
+571 verbose rebuildBundles has@1.0.3
+572 info install has@1.0.3
+573 info postinstall has@1.0.3
+574 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\has-flag
+575 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\has-flag
+576 info preinstall has-flag@3.0.0
+577 verbose linkStuff [ false,
+577 verbose linkStuff   false,
+577 verbose linkStuff   false,
+577 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+578 info linkStuff has-flag@3.0.0
+579 verbose linkBins has-flag@3.0.0
+580 verbose linkMans has-flag@3.0.0
+581 verbose rebuildBundles has-flag@3.0.0
+582 info install has-flag@3.0.0
+583 info postinstall has-flag@3.0.0
+584 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\has-symbols
+585 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\has-symbols
+586 info preinstall has-symbols@1.0.3
+587 verbose linkStuff [ false,
+587 verbose linkStuff   false,
+587 verbose linkStuff   false,
+587 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+588 info linkStuff has-symbols@1.0.3
+589 verbose linkBins has-symbols@1.0.3
+590 verbose linkMans has-symbols@1.0.3
+591 verbose rebuildBundles has-symbols@1.0.3
+592 info install has-symbols@1.0.3
+593 info postinstall has-symbols@1.0.3
+594 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\has-unicode
+595 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\has-unicode
+596 info preinstall has-unicode@2.0.1
+597 verbose linkStuff [ false,
+597 verbose linkStuff   false,
+597 verbose linkStuff   false,
+597 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+598 info linkStuff has-unicode@2.0.1
+599 verbose linkBins has-unicode@2.0.1
+600 verbose linkMans has-unicode@2.0.1
+601 verbose rebuildBundles has-unicode@2.0.1
+602 info install has-unicode@2.0.1
+603 info postinstall has-unicode@2.0.1
+604 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\http-errors
+605 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\http-errors
+606 info preinstall http-errors@2.0.0
+607 verbose linkStuff [ false,
+607 verbose linkStuff   false,
+607 verbose linkStuff   false,
+607 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+608 info linkStuff http-errors@2.0.0
+609 verbose linkBins http-errors@2.0.0
+610 verbose linkMans http-errors@2.0.0
+611 verbose rebuildBundles http-errors@2.0.0
+612 info install http-errors@2.0.0
+613 info postinstall http-errors@2.0.0
+614 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\https-proxy-agent
+615 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\https-proxy-agent
+616 info preinstall https-proxy-agent@5.0.1
+617 verbose linkStuff [ false,
+617 verbose linkStuff   false,
+617 verbose linkStuff   false,
+617 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+618 info linkStuff https-proxy-agent@5.0.1
+619 verbose linkBins https-proxy-agent@5.0.1
+620 verbose linkMans https-proxy-agent@5.0.1
+621 verbose rebuildBundles https-proxy-agent@5.0.1
+622 verbose rebuildBundles [ 'debug', 'ms' ]
+623 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\https-proxy-agent\node_modules\ms
+624 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\https-proxy-agent\node_modules\ms
+625 info preinstall ms@2.1.2
+626 verbose linkStuff [ false,
+626 verbose linkStuff   false,
+626 verbose linkStuff   false,
+626 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules\\https-proxy-agent\\node_modules' ]
+627 info linkStuff ms@2.1.2
+628 verbose linkBins ms@2.1.2
+629 verbose linkMans ms@2.1.2
+630 verbose rebuildBundles ms@2.1.2
+631 info install ms@2.1.2
+632 info postinstall ms@2.1.2
+633 info install https-proxy-agent@5.0.1
+634 info postinstall https-proxy-agent@5.0.1
+635 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\iconv-lite
+636 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\iconv-lite
+637 info preinstall iconv-lite@0.4.24
+638 verbose linkStuff [ false,
+638 verbose linkStuff   false,
+638 verbose linkStuff   false,
+638 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+639 info linkStuff iconv-lite@0.4.24
+640 verbose linkBins iconv-lite@0.4.24
+641 verbose linkMans iconv-lite@0.4.24
+642 verbose rebuildBundles iconv-lite@0.4.24
+643 info install iconv-lite@0.4.24
+644 info postinstall iconv-lite@0.4.24
+645 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ieee754
+646 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ieee754
+647 info preinstall ieee754@1.2.1
+648 verbose linkStuff [ false,
+648 verbose linkStuff   false,
+648 verbose linkStuff   false,
+648 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+649 info linkStuff ieee754@1.2.1
+650 verbose linkBins ieee754@1.2.1
+651 verbose linkMans ieee754@1.2.1
+652 verbose rebuildBundles ieee754@1.2.1
+653 info install ieee754@1.2.1
+654 info postinstall ieee754@1.2.1
+655 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ignore-by-default
+656 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ignore-by-default
+657 info preinstall ignore-by-default@1.0.1
+658 verbose linkStuff [ false,
+658 verbose linkStuff   false,
+658 verbose linkStuff   false,
+658 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+659 info linkStuff ignore-by-default@1.0.1
+660 verbose linkBins ignore-by-default@1.0.1
+661 verbose linkMans ignore-by-default@1.0.1
+662 verbose rebuildBundles ignore-by-default@1.0.1
+663 info install ignore-by-default@1.0.1
+664 info postinstall ignore-by-default@1.0.1
+665 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\inflight
+666 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\inflight
+667 info preinstall inflight@1.0.6
+668 verbose linkStuff [ false,
+668 verbose linkStuff   false,
+668 verbose linkStuff   false,
+668 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+669 info linkStuff inflight@1.0.6
+670 verbose linkBins inflight@1.0.6
+671 verbose linkMans inflight@1.0.6
+672 verbose rebuildBundles inflight@1.0.6
+673 info install inflight@1.0.6
+674 info postinstall inflight@1.0.6
+675 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\inherits
+676 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\inherits
+677 info preinstall inherits@2.0.4
+678 verbose linkStuff [ false,
+678 verbose linkStuff   false,
+678 verbose linkStuff   false,
+678 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+679 info linkStuff inherits@2.0.4
+680 verbose linkBins inherits@2.0.4
+681 verbose linkMans inherits@2.0.4
+682 verbose rebuildBundles inherits@2.0.4
+683 info install inherits@2.0.4
+684 info postinstall inherits@2.0.4
+685 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ip
+686 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ip
+687 info preinstall ip@2.0.0
+688 verbose linkStuff [ false,
+688 verbose linkStuff   false,
+688 verbose linkStuff   false,
+688 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+689 info linkStuff ip@2.0.0
+690 verbose linkBins ip@2.0.0
+691 verbose linkMans ip@2.0.0
+692 verbose rebuildBundles ip@2.0.0
+693 info install ip@2.0.0
+694 info postinstall ip@2.0.0
+695 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ipaddr.js
+696 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ipaddr.js
+697 info preinstall ipaddr.js@1.9.1
+698 verbose linkStuff [ false,
+698 verbose linkStuff   false,
+698 verbose linkStuff   false,
+698 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+699 info linkStuff ipaddr.js@1.9.1
+700 verbose linkBins ipaddr.js@1.9.1
+701 verbose linkMans ipaddr.js@1.9.1
+702 verbose rebuildBundles ipaddr.js@1.9.1
+703 info install ipaddr.js@1.9.1
+704 info postinstall ipaddr.js@1.9.1
+705 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-binary-path
+706 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-binary-path
+707 info preinstall is-binary-path@2.1.0
+708 verbose linkStuff [ false,
+708 verbose linkStuff   false,
+708 verbose linkStuff   false,
+708 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+709 info linkStuff is-binary-path@2.1.0
+710 verbose linkBins is-binary-path@2.1.0
+711 verbose linkMans is-binary-path@2.1.0
+712 verbose rebuildBundles is-binary-path@2.1.0
+713 info install is-binary-path@2.1.0
+714 info postinstall is-binary-path@2.1.0
+715 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-extglob
+716 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-extglob
+717 info preinstall is-extglob@2.1.1
+718 verbose linkStuff [ false,
+718 verbose linkStuff   false,
+718 verbose linkStuff   false,
+718 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+719 info linkStuff is-extglob@2.1.1
+720 verbose linkBins is-extglob@2.1.1
+721 verbose linkMans is-extglob@2.1.1
+722 verbose rebuildBundles is-extglob@2.1.1
+723 info install is-extglob@2.1.1
+724 info postinstall is-extglob@2.1.1
+725 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-fullwidth-code-point
+726 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-fullwidth-code-point
+727 info preinstall is-fullwidth-code-point@3.0.0
+728 verbose linkStuff [ false,
+728 verbose linkStuff   false,
+728 verbose linkStuff   false,
+728 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+729 info linkStuff is-fullwidth-code-point@3.0.0
+730 verbose linkBins is-fullwidth-code-point@3.0.0
+731 verbose linkMans is-fullwidth-code-point@3.0.0
+732 verbose rebuildBundles is-fullwidth-code-point@3.0.0
+733 info install is-fullwidth-code-point@3.0.0
+734 info postinstall is-fullwidth-code-point@3.0.0
+735 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-glob
+736 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-glob
+737 info preinstall is-glob@4.0.3
+738 verbose linkStuff [ false,
+738 verbose linkStuff   false,
+738 verbose linkStuff   false,
+738 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+739 info linkStuff is-glob@4.0.3
+740 verbose linkBins is-glob@4.0.3
+741 verbose linkMans is-glob@4.0.3
+742 verbose rebuildBundles is-glob@4.0.3
+743 info install is-glob@4.0.3
+744 info postinstall is-glob@4.0.3
+745 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-number
+746 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\is-number
+747 info preinstall is-number@7.0.0
+748 verbose linkStuff [ false,
+748 verbose linkStuff   false,
+748 verbose linkStuff   false,
+748 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+749 info linkStuff is-number@7.0.0
+750 verbose linkBins is-number@7.0.0
+751 verbose linkMans is-number@7.0.0
+752 verbose rebuildBundles is-number@7.0.0
+753 info install is-number@7.0.0
+754 info postinstall is-number@7.0.0
+755 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\jwa
+756 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\jwa
+757 info preinstall jwa@1.4.1
+758 verbose linkStuff [ false,
+758 verbose linkStuff   false,
+758 verbose linkStuff   false,
+758 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+759 info linkStuff jwa@1.4.1
+760 verbose linkBins jwa@1.4.1
+761 verbose linkMans jwa@1.4.1
+762 verbose rebuildBundles jwa@1.4.1
+763 info install jwa@1.4.1
+764 info postinstall jwa@1.4.1
+765 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\jws
+766 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\jws
+767 info preinstall jws@3.2.2
+768 verbose linkStuff [ false,
+768 verbose linkStuff   false,
+768 verbose linkStuff   false,
+768 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+769 info linkStuff jws@3.2.2
+770 verbose linkBins jws@3.2.2
+771 verbose linkMans jws@3.2.2
+772 verbose rebuildBundles jws@3.2.2
+773 info install jws@3.2.2
+774 info postinstall jws@3.2.2
+775 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\kareem
+776 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\kareem
+777 info preinstall kareem@2.4.1
+778 verbose linkStuff [ false,
+778 verbose linkStuff   false,
+778 verbose linkStuff   false,
+778 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+779 info linkStuff kareem@2.4.1
+780 verbose linkBins kareem@2.4.1
+781 verbose linkMans kareem@2.4.1
+782 verbose rebuildBundles kareem@2.4.1
+783 info install kareem@2.4.1
+784 info postinstall kareem@2.4.1
+785 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.includes
+786 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.includes
+787 info preinstall lodash.includes@4.3.0
+788 verbose linkStuff [ false,
+788 verbose linkStuff   false,
+788 verbose linkStuff   false,
+788 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+789 info linkStuff lodash.includes@4.3.0
+790 verbose linkBins lodash.includes@4.3.0
+791 verbose linkMans lodash.includes@4.3.0
+792 verbose rebuildBundles lodash.includes@4.3.0
+793 info install lodash.includes@4.3.0
+794 info postinstall lodash.includes@4.3.0
+795 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isboolean
+796 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isboolean
+797 info preinstall lodash.isboolean@3.0.3
+798 verbose linkStuff [ false,
+798 verbose linkStuff   false,
+798 verbose linkStuff   false,
+798 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+799 info linkStuff lodash.isboolean@3.0.3
+800 verbose linkBins lodash.isboolean@3.0.3
+801 verbose linkMans lodash.isboolean@3.0.3
+802 verbose rebuildBundles lodash.isboolean@3.0.3
+803 info install lodash.isboolean@3.0.3
+804 info postinstall lodash.isboolean@3.0.3
+805 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isinteger
+806 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isinteger
+807 info preinstall lodash.isinteger@4.0.4
+808 verbose linkStuff [ false,
+808 verbose linkStuff   false,
+808 verbose linkStuff   false,
+808 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+809 info linkStuff lodash.isinteger@4.0.4
+810 verbose linkBins lodash.isinteger@4.0.4
+811 verbose linkMans lodash.isinteger@4.0.4
+812 verbose rebuildBundles lodash.isinteger@4.0.4
+813 info install lodash.isinteger@4.0.4
+814 info postinstall lodash.isinteger@4.0.4
+815 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isnumber
+816 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isnumber
+817 info preinstall lodash.isnumber@3.0.3
+818 verbose linkStuff [ false,
+818 verbose linkStuff   false,
+818 verbose linkStuff   false,
+818 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+819 info linkStuff lodash.isnumber@3.0.3
+820 verbose linkBins lodash.isnumber@3.0.3
+821 verbose linkMans lodash.isnumber@3.0.3
+822 verbose rebuildBundles lodash.isnumber@3.0.3
+823 info install lodash.isnumber@3.0.3
+824 info postinstall lodash.isnumber@3.0.3
+825 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isplainobject
+826 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isplainobject
+827 info preinstall lodash.isplainobject@4.0.6
+828 verbose linkStuff [ false,
+828 verbose linkStuff   false,
+828 verbose linkStuff   false,
+828 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+829 info linkStuff lodash.isplainobject@4.0.6
+830 verbose linkBins lodash.isplainobject@4.0.6
+831 verbose linkMans lodash.isplainobject@4.0.6
+832 verbose rebuildBundles lodash.isplainobject@4.0.6
+833 info install lodash.isplainobject@4.0.6
+834 info postinstall lodash.isplainobject@4.0.6
+835 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isstring
+836 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.isstring
+837 info preinstall lodash.isstring@4.0.1
+838 verbose linkStuff [ false,
+838 verbose linkStuff   false,
+838 verbose linkStuff   false,
+838 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+839 info linkStuff lodash.isstring@4.0.1
+840 verbose linkBins lodash.isstring@4.0.1
+841 verbose linkMans lodash.isstring@4.0.1
+842 verbose rebuildBundles lodash.isstring@4.0.1
+843 info install lodash.isstring@4.0.1
+844 info postinstall lodash.isstring@4.0.1
+845 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.once
+846 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lodash.once
+847 info preinstall lodash.once@4.1.1
+848 verbose linkStuff [ false,
+848 verbose linkStuff   false,
+848 verbose linkStuff   false,
+848 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+849 info linkStuff lodash.once@4.1.1
+850 verbose linkBins lodash.once@4.1.1
+851 verbose linkMans lodash.once@4.1.1
+852 verbose rebuildBundles lodash.once@4.1.1
+853 info install lodash.once@4.1.1
+854 info postinstall lodash.once@4.1.1
+855 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lru-cache
+856 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\lru-cache
+857 info preinstall lru-cache@6.0.0
+858 verbose linkStuff [ false,
+858 verbose linkStuff   false,
+858 verbose linkStuff   false,
+858 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+859 info linkStuff lru-cache@6.0.0
+860 verbose linkBins lru-cache@6.0.0
+861 verbose linkMans lru-cache@6.0.0
+862 verbose rebuildBundles lru-cache@6.0.0
+863 info install lru-cache@6.0.0
+864 info postinstall lru-cache@6.0.0
+865 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\make-dir
+866 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\make-dir
+867 info preinstall make-dir@3.1.0
+868 verbose linkStuff [ false,
+868 verbose linkStuff   false,
+868 verbose linkStuff   false,
+868 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+869 info linkStuff make-dir@3.1.0
+870 verbose linkBins make-dir@3.1.0
+871 verbose linkMans make-dir@3.1.0
+872 verbose rebuildBundles make-dir@3.1.0
+873 verbose rebuildBundles [ '.bin', 'semver' ]
+874 info install make-dir@3.1.0
+875 info postinstall make-dir@3.1.0
+876 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\media-typer
+877 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\media-typer
+878 info preinstall media-typer@0.3.0
+879 verbose linkStuff [ false,
+879 verbose linkStuff   false,
+879 verbose linkStuff   false,
+879 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+880 info linkStuff media-typer@0.3.0
+881 verbose linkBins media-typer@0.3.0
+882 verbose linkMans media-typer@0.3.0
+883 verbose rebuildBundles media-typer@0.3.0
+884 info install media-typer@0.3.0
+885 info postinstall media-typer@0.3.0
+886 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\memory-pager
+887 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\memory-pager
+888 info preinstall memory-pager@1.5.0
+889 verbose linkStuff [ false,
+889 verbose linkStuff   false,
+889 verbose linkStuff   false,
+889 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+890 info linkStuff memory-pager@1.5.0
+891 verbose linkBins memory-pager@1.5.0
+892 verbose linkMans memory-pager@1.5.0
+893 verbose rebuildBundles memory-pager@1.5.0
+894 info install memory-pager@1.5.0
+895 info postinstall memory-pager@1.5.0
+896 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\merge-descriptors
+897 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\merge-descriptors
+898 info preinstall merge-descriptors@1.0.1
+899 verbose linkStuff [ false,
+899 verbose linkStuff   false,
+899 verbose linkStuff   false,
+899 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+900 info linkStuff merge-descriptors@1.0.1
+901 verbose linkBins merge-descriptors@1.0.1
+902 verbose linkMans merge-descriptors@1.0.1
+903 verbose rebuildBundles merge-descriptors@1.0.1
+904 info install merge-descriptors@1.0.1
+905 info postinstall merge-descriptors@1.0.1
+906 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\methods
+907 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\methods
+908 info preinstall methods@1.1.2
+909 verbose linkStuff [ false,
+909 verbose linkStuff   false,
+909 verbose linkStuff   false,
+909 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+910 info linkStuff methods@1.1.2
+911 verbose linkBins methods@1.1.2
+912 verbose linkMans methods@1.1.2
+913 verbose rebuildBundles methods@1.1.2
+914 info install methods@1.1.2
+915 info postinstall methods@1.1.2
+916 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mime
+917 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mime
+918 info preinstall mime@1.6.0
+919 verbose linkStuff [ false,
+919 verbose linkStuff   false,
+919 verbose linkStuff   false,
+919 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+920 info linkStuff mime@1.6.0
+921 verbose linkBins mime@1.6.0
+922 verbose link bins [ { mime: 'cli.js' },
+922 verbose link bins   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules\\.bin',
+922 verbose link bins   false ]
+923 verbose linkMans mime@1.6.0
+924 verbose rebuildBundles mime@1.6.0
+925 info install mime@1.6.0
+926 info postinstall mime@1.6.0
+927 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mime-db
+928 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mime-db
+929 info preinstall mime-db@1.52.0
+930 verbose linkStuff [ false,
+930 verbose linkStuff   false,
+930 verbose linkStuff   false,
+930 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+931 info linkStuff mime-db@1.52.0
+932 verbose linkBins mime-db@1.52.0
+933 verbose linkMans mime-db@1.52.0
+934 verbose rebuildBundles mime-db@1.52.0
+935 info install mime-db@1.52.0
+936 info postinstall mime-db@1.52.0
+937 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mime-types
+938 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mime-types
+939 info preinstall mime-types@2.1.35
+940 verbose linkStuff [ false,
+940 verbose linkStuff   false,
+940 verbose linkStuff   false,
+940 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+941 info linkStuff mime-types@2.1.35
+942 verbose linkBins mime-types@2.1.35
+943 verbose linkMans mime-types@2.1.35
+944 verbose rebuildBundles mime-types@2.1.35
+945 info install mime-types@2.1.35
+946 info postinstall mime-types@2.1.35
+947 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\minimatch
+948 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\minimatch
+949 info preinstall minimatch@3.1.2
+950 verbose linkStuff [ false,
+950 verbose linkStuff   false,
+950 verbose linkStuff   false,
+950 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+951 info linkStuff minimatch@3.1.2
+952 verbose linkBins minimatch@3.1.2
+953 verbose linkMans minimatch@3.1.2
+954 verbose rebuildBundles minimatch@3.1.2
+955 info install minimatch@3.1.2
+956 info postinstall minimatch@3.1.2
+957 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\minipass
+958 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\minipass
+959 info preinstall minipass@3.3.6
+960 verbose linkStuff [ false,
+960 verbose linkStuff   false,
+960 verbose linkStuff   false,
+960 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+961 info linkStuff minipass@3.3.6
+962 verbose linkBins minipass@3.3.6
+963 verbose linkMans minipass@3.3.6
+964 verbose rebuildBundles minipass@3.3.6
+965 info install minipass@3.3.6
+966 info postinstall minipass@3.3.6
+967 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\minizlib
+968 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\minizlib
+969 info preinstall minizlib@2.1.2
+970 verbose linkStuff [ false,
+970 verbose linkStuff   false,
+970 verbose linkStuff   false,
+970 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+971 info linkStuff minizlib@2.1.2
+972 verbose linkBins minizlib@2.1.2
+973 verbose linkMans minizlib@2.1.2
+974 verbose rebuildBundles minizlib@2.1.2
+975 info install minizlib@2.1.2
+976 info postinstall minizlib@2.1.2
+977 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mkdirp
+978 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mkdirp
+979 info preinstall mkdirp@1.0.4
+980 verbose linkStuff [ false,
+980 verbose linkStuff   false,
+980 verbose linkStuff   false,
+980 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+981 info linkStuff mkdirp@1.0.4
+982 verbose linkBins mkdirp@1.0.4
+983 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+983 verbose link bins   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules\\.bin',
+983 verbose link bins   false ]
+984 verbose linkMans mkdirp@1.0.4
+985 verbose rebuildBundles mkdirp@1.0.4
+986 info install mkdirp@1.0.4
+987 info postinstall mkdirp@1.0.4
+988 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mongodb
+989 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mongodb
+990 info preinstall mongodb@4.11.0
+991 verbose linkStuff [ false,
+991 verbose linkStuff   false,
+991 verbose linkStuff   false,
+991 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+992 info linkStuff mongodb@4.11.0
+993 verbose linkBins mongodb@4.11.0
+994 verbose linkMans mongodb@4.11.0
+995 verbose rebuildBundles mongodb@4.11.0
+996 info install mongodb@4.11.0
+997 info postinstall mongodb@4.11.0
+998 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mongodb-connection-string-url
+999 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mongodb-connection-string-url
+1000 info preinstall mongodb-connection-string-url@2.5.4
+1001 verbose linkStuff [ false,
+1001 verbose linkStuff   false,
+1001 verbose linkStuff   false,
+1001 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+1002 info linkStuff mongodb-connection-string-url@2.5.4
+1003 verbose linkBins mongodb-connection-string-url@2.5.4
+1004 verbose linkMans mongodb-connection-string-url@2.5.4
+1005 verbose rebuildBundles mongodb-connection-string-url@2.5.4
+1006 info install mongodb-connection-string-url@2.5.4
+1007 info postinstall mongodb-connection-string-url@2.5.4
+1008 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mpath
+1009 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mpath
+1010 info preinstall mpath@0.9.0
+1011 verbose linkStuff [ false,
+1011 verbose linkStuff   false,
+1011 verbose linkStuff   false,
+1011 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+1012 info linkStuff mpath@0.9.0
+1013 verbose linkBins mpath@0.9.0
+1014 verbose linkMans mpath@0.9.0
+1015 verbose rebuildBundles mpath@0.9.0
+1016 info install mpath@0.9.0
+1017 info postinstall mpath@0.9.0
+1018 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mquery
+1019 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mquery
+1020 info preinstall mquery@4.0.3
+1021 verbose linkStuff [ false,
+1021 verbose linkStuff   false,
+1021 verbose linkStuff   false,
+1021 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+1022 info linkStuff mquery@4.0.3
+1023 verbose linkBins mquery@4.0.3
+1024 verbose linkMans mquery@4.0.3
+1025 verbose rebuildBundles mquery@4.0.3
+1026 verbose rebuildBundles [ 'debug', 'ms' ]
+1027 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mquery\node_modules\ms
+1028 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\mquery\node_modules\ms
+1029 info preinstall ms@2.1.2
+1030 verbose linkStuff [ false,
+1030 verbose linkStuff   false,
+1030 verbose linkStuff   false,
+1030 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules\\mquery\\node_modules' ]
+1031 info linkStuff ms@2.1.2
+1032 verbose linkBins ms@2.1.2
+1033 verbose linkMans ms@2.1.2
+1034 verbose rebuildBundles ms@2.1.2
+1035 info install ms@2.1.2
+1036 info postinstall ms@2.1.2
+1037 info install mquery@4.0.3
+1038 info postinstall mquery@4.0.3
+1039 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ms
+1040 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\ms
+1041 info preinstall ms@2.0.0
+1042 verbose linkStuff [ false,
+1042 verbose linkStuff   false,
+1042 verbose linkStuff   false,
+1042 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+1043 info linkStuff ms@2.0.0
+1044 verbose linkBins ms@2.0.0
+1045 verbose linkMans ms@2.0.0
+1046 verbose rebuildBundles ms@2.0.0
+1047 info install ms@2.0.0
+1048 info postinstall ms@2.0.0
+1049 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\negotiator
+1050 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\negotiator
+1051 info preinstall negotiator@0.6.3
+1052 verbose linkStuff [ false,
+1052 verbose linkStuff   false,
+1052 verbose linkStuff   false,
+1052 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+1053 info linkStuff negotiator@0.6.3
+1054 verbose linkBins negotiator@0.6.3
+1055 verbose linkMans negotiator@0.6.3
+1056 verbose rebuildBundles negotiator@0.6.3
+1057 info install negotiator@0.6.3
+1058 info postinstall negotiator@0.6.3
+1059 verbose rebuild bundle C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\node-addon-api
+1060 info build C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server\node_modules\node-addon-api
+1061 info preinstall node-addon-api@5.0.0
+1062 verbose linkStuff [ false,
+1062 verbose linkStuff   false,
+1062 verbose linkStuff   false,
+1062 verbose linkStuff   'C:\\Users\\Avni\\Downloads\\MERN_social_media_APP-main\\MERN_social_media_APP-main\\server\\node_modules' ]
+1063 info linkStuff node-addon-api@5.0.0
+1064 verbose linkBins node-addon-api@5.0.0
+1065 verbose linkMans node-addon-api@5.0.0
+1066 verbose rebuildBundles node-addon-api@5.0.0
+1067 info install node-addon-api@5.0.0
+1068 verbose unsafe-perm in lifecycle true
+1069 info node-addon-api@5.0.0 Failed to exec install script
+1070 error node-addon-api@5.0.0 install: `node-gyp rebuild`
+1070 error Exit status 1
+1071 error Failed at the node-addon-api@5.0.0 install script.
+1071 error This is most likely a problem with the node-addon-api package,
+1071 error not with npm itself.
+1071 error Tell the author that this fails on your system:
+1071 error     node-gyp rebuild
+1071 error You can get their info via:
+1071 error     npm owner ls node-addon-api
+1071 error There is likely additional logging output above.
+1072 error System Windows_NT 6.2.9200
+1073 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+1074 error cwd C:\Users\Avni\Downloads\MERN_social_media_APP-main\MERN_social_media_APP-main\server
+1075 error node -v v0.10.24
+1076 error npm -v 1.3.21
+1077 error code ELIFECYCLE
+1078 verbose exit [ 1, true ]
